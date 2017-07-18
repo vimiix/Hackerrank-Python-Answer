@@ -43,7 +43,7 @@ t = int(input())
 for i in range(t):
     c, *args = map(str,input().split())
     getattr(s,c) (*(int(x) for x in args))
-    #次数要熟悉getattr这个自省函数的用法
+    #此处要熟悉getattr这个自省函数的用法
 
 print (sum(s))
 '''
